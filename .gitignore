@@ -9,15 +9,11 @@
 
 # Explicit frontend env files
 frontend/.env
-frontend/.env.local
-frontend/.env.development
-frontend/.env.production
+
 
 # Explicit backend env files
 backend/.env
-backend/.env.local
-backend/.env.development
-backend/.env.production
+
 
 
 # ================================
