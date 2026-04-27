@@ -3,9 +3,7 @@
 # ================================
 
 .env
-.env.local
-.env.development
-.env.production
+
 
 # Explicit frontend env files
 frontend/.env
