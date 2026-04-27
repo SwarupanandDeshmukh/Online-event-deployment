@@ -18,6 +18,10 @@ app.use("/api/auth", authRoutes);
 app.use("/api/events", eventRoutes);
 app.use("/api/registrations", registrationRoutes);
 
+app.get("/", (req, res) => {
+  res.send("API Running");
+});
+
 const port = process.env.PORT || 3000;
 
 connectDB().then(() => {
