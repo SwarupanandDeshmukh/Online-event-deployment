@@ -1,16 +1,4 @@
-# ================================
-# Root Environment Files
-# ================================
 
-.env
-
-
-# Explicit frontend env files
-frontend/.env
-
-
-# Explicit backend env files
-backend/.env
 
 
 
